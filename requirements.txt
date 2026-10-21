@@ -1,0 +1,6 @@
+# Versions available in /home/pc/anaconda3/envs/GPS.
+torch==2.8.0
+torchvision==0.23.0
+timm==0.6.5
+numpy==2.2.6
+Pillow==11.3.0

@@ -1,0 +1,18 @@
+{
+  "dataset": "clevr_dist",
+  "data_root": "/home/pc/data/PEFT-method/MCST/datasets/vtab-1k",
+  "pretrained": "/home/pc/data/PEFT-method/pretrained-model/VFM/ViT/B_16-i21k-300ep-lr_0.001-aug_medium1-wd_0.1-do_0.0-sd_0.0.npz",
+  "epochs": 50,
+  "warmup_epochs": 5,
+  "lr": 0.0002,
+  "head_lr": null,
+  "beta1": 0.9,
+  "beta2": 0.999,
+  "weight_decay": 0.0,
+  "batch_size": 32,
+  "augmentation": "vtab",
+  "mixup": 0.0,
+  "cutmix": 0.0,
+  "smoothing": 0.0,
+  "ema_decay": 0.0
+}

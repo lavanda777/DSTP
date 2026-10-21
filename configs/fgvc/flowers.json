@@ -1,0 +1,18 @@
+{
+  "dataset": "flowers",
+  "data_root": "/home/pc/data/PEFT-method/GPS-main/datasets/FGVC",
+  "pretrained": "/home/pc/data/PEFT-method/pretrained-model/VFM/ViT/B_16-i21k-300ep-lr_0.001-aug_medium1-wd_0.1-do_0.0-sd_0.0.npz",
+  "epochs": 30,
+  "warmup_epochs": 3,
+  "lr": 0.0002,
+  "head_lr": null,
+  "beta1": 0.9,
+  "beta2": 0.999,
+  "weight_decay": 0.0,
+  "batch_size": 32,
+  "augmentation": "simple",
+  "mixup": 0.8,
+  "cutmix": 1.0,
+  "smoothing": 0.1,
+  "ema_decay": 0.9998
+}

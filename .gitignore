@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.envs/
+result/
+work_dirs/
+*.pt
+*.pth
+*.npz
